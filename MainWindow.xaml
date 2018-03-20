@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <ListBox x:Name="lbDebug" HorizontalAlignment="Left" Height="238" VerticalAlignment="Top" Width="760" SelectionChanged="lbDebug_SelectionChanged"/>
+        <Button x:Name="btFindEveWindows" Content="Find Eve Windows" HorizontalAlignment="Left" Margin="0,243,0,0" VerticalAlignment="Top" Width="110" Click="btFindEveWindows_Click"/>
+        <Image x:Name="imgScr" HorizontalAlignment="Left" Height="154" Margin="125,243,0,0" VerticalAlignment="Top" Width="614"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="100" Margin="-93,-68,0,0" VerticalAlignment="Top" Width="100"/>
+
     </Grid>
 </Window>
